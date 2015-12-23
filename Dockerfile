@@ -20,3 +20,5 @@ ADD container-files /
 VOLUME ["/data"]
 
 ENTRYPOINT ["/config/bootstrap.sh"]
+
+EXPOSE 22
